@@ -18,7 +18,7 @@
  * For more best practices and tips, see:
  * https://sailsjs.com/docs/concepts/deployment
  */
-
+NODE_ENV='staging';
 module.exports = {
 
 
@@ -92,7 +92,7 @@ module.exports = {
     * https://sailsjs.com/docs/concepts/models-and-orm/model-settings#?migrate *
     *                                                                          *
     ***************************************************************************/
-    migrate: 'safe',
+    migrate: 'alter',
 
     /***************************************************************************
     *                                                                          *
