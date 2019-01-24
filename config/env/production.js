@@ -18,7 +18,7 @@
  * For more best practices and tips, see:
  * https://sailsjs.com/docs/concepts/deployment
  */
-NODE_ENV='staging';
+
 module.exports = {
 
 
