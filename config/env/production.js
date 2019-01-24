@@ -240,7 +240,7 @@ module.exports = {
   *                                                                          *
   ***************************************************************************/
   sockets: {
-
+    onlyAllowOrigins: ["http://www.mydeployedapp.com", "http://mydeployedapp.com"],
     /***************************************************************************
     *                                                                          *
     * Uncomment the `onlyAllowOrigins` whitelist below to configure which      *
@@ -337,7 +337,7 @@ module.exports = {
   * this, just try deploying without setting it and see if it works.)       *
   *                                                                         *
   ***************************************************************************/
-  // port: 80,
+   port: 80,
 
 
 
